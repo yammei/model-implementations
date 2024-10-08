@@ -1,4 +1,5 @@
-Getting Started
+<h1>Learning & Implementation Guides for ML</h1>
+<h2>Getting Started</h2>
 
 ```bash
 git init
@@ -9,7 +10,19 @@ source .venv/bin/activate
 pip3 install -r requirements.txt
 ```
 
-[1] Linear Regression Terminal Output
+<h2>Index</h2>
+• <a href="1">Linear Regression</a><br>
+• <a href="2">Logistic Regression</a><br>
+• <a href="3">Decision Tree</a><br>
+• <a href="4">Random Forest</a><br>
+
+<h2 id="1">1. Linear Regression</h2>
+
+<h3>Visualized & Explained</h3>
+
+<img src="https://github.com/yammei/model-implementations/blob/main/LinearRegression/linear_regression_visualized.png" alt=""/>
+
+<h3>linear_regression.py Terminal Output</h3>
 
 ```bash
 Dataset Features & Actual Values ____________
@@ -49,7 +62,49 @@ pred_val: <class 'numpy.ndarray'>
 _______________________________________________
 ```
 
-[2] Random Forest Terminal Output
+<h2 id="2">2. Logistic Regression</h2>
+
+<h3>Visualized & Explained</h3>
+
+<img src="https://github.com/yammei/model-implementations/blob/main/LogisticRegression/logistic_regression_visualized.png" alt=""/>
+
+<h3>logistic_regression.py Terminal Output</h3>
+
+```bash
+Confusion Matrix:
+[[10  0  0]
+ [ 0  9  0]
+ [ 0  0 11]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        10
+           1       1.00      1.00      1.00         9
+           2       1.00      1.00      1.00        11
+
+    accuracy                           1.00        30
+   macro avg       1.00      1.00      1.00        30
+weighted avg       1.00      1.00      1.00        30
+```
+
+<h2 id="3">3. Decision Tree</h2>
+
+<h3>Visualized & Explained</h3>
+<i>Coming Soon...</i>
+
+<h3>decision_tree.py Terminal Output</h3>
+
+```bash
+...
+```
+
+<h2 id="4">4. Random Forest</h2>
+
+<h3>Visualized & Explained</h3>
+<i>Coming Soon...</i>
+
+<h3>random_forest.py Terminal Output</h3>
 
 ```bash
 Dataset Features & Actual Values ____________
