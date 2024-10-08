@@ -1,1 +1,1 @@
-<img src='logistic_regression_visualized.png/>
+<img href="https://github.com/yammei/model-implementations/blob/main/LogisticRegression/logistic_regression_visualized.png"/>
