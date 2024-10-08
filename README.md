@@ -11,10 +11,10 @@ pip3 install -r requirements.txt
 ```
 
 <h2>Index</h2>
-• <a href="1">Linear Regression</a><br>
-• <a href="2">Logistic Regression</a><br>
-• <a href="3">Decision Tree</a><br>
-• <a href="4">Random Forest</a><br>
+• <a href="#1">Linear Regression</a><br>
+• <a href="#2">Logistic Regression</a><br>
+• <a href="#3">Decision Tree</a><br>
+• <a href="#4">Random Forest</a><br>
 
 <h2 id="1">1. Linear Regression</h2>
 
