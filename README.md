@@ -1,3 +1,14 @@
+Getting Started
+
+```bash
+git init
+git remote add origin https://github.com/yammei/model-implementations.git
+git pull origin main
+python3 -m venv .venv
+source .venv/bin/activate
+pip3 install -r requirements.txt
+```
+
 Linear Regression Terminal Output
 
 ```bash
